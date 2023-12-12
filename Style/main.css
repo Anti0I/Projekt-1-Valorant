@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;1,300&display=swap");
+
+body {
+  height: 250vh;
+  overflow-x: hidden;
+  background-color: black;
+}
+main {
+  display: flex;
+  max-width: auto;
+  min-height: 92vh;
+  overflow: hidden;
+}
+.main-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+h1 {
+  text-shadow: 2px 3px #f54842;
+  color: #fae4e3;
+  font-size: 100px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.title {
+  outline-offset: 4px;
+  outline: 1px white solid;
+  text-align: center;
+  display: inline;
+  padding: 13px;
+  color: #ffffff;
+  font-weight: bold;
+  background: rgb(254, 128, 128);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 128, 128, 1) 0%,
+    rgba(242, 83, 66, 1) 100%
+  );
+  letter-spacing: 1px;
+  transition: 0.2s;
+  border-radius: 10px;
+}
+.title:hover {
+  padding: 15px;
+  background: rgb(242, 103, 103);
+  background: linear-gradient(
+    90deg,
+    rgba(242, 103, 103, 1) 0%,
+    rgba(245, 27, 3, 1) 100%
+  );
+  letter-spacing: 2px;
+}
+.title:active {
+  padding: 10px;
+}
+
+main > div > h3 {
+  font-weight: lighter;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em red;
+}

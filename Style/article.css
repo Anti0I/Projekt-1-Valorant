@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;1,300&display=swap");
+article {
+  height: 110vh;
+  display: flex;
+  outline: 1px solid rgb(248, 96, 96);
+  align-items: center;
+}
+
+article > img {
+  position: absolute;
+  z-index: -1;
+  width: 250vw;
+  height: 110vh;
+}
+.background2 {
+  position: absolute;
+  z-index: -1;
+  width: 250vw;
+  height: 110vh;
+  opacity: 0.3;
+}
+article > div {
+  color: rgb(255, 255, 255);
+  max-height: 80vh;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  font-size: x-large;
+  text-align: center;
+  height: 100vh;
+  margin-left: 48vh;
+  margin-right: 48vh;
+}
+article > div > h2 {
+  text-shadow: rgb(255, 0, 0) 2px 5px;
+  display: center;
+}
+article > div > h3 {
+  font-size: 20px;
+  box-sizing: border-box;
+  font-family: "Archivo";
+  text-align: center;
+}
+article > div > h4 {
+  font-size: 15px;
+  height: 17vh;
+  line-height: 22px;
+  text-align: center;
+  text-shadow: rgb(255, 152, 152) 0 0 1px;
+}
+.Agents {
+  outline-offset: 4px;
+  outline: 1px white solid;
+  padding: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  background: rgb(254, 128, 128);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 128, 128, 1) 0%,
+    rgba(242, 83, 66, 1) 100%
+  );
+  letter-spacing: 1px;
+  transition: 0.2s;
+  border-radius: 1px;
+}
+.Agents:hover {
+  padding: 16px;
+  background: rgb(242, 103, 103);
+  background: linear-gradient(
+    90deg,
+    rgba(242, 103, 103, 1) 0%,
+    rgba(245, 27, 3, 1) 100%
+  );
+  letter-spacing: 2px;
+}
+.Agents:active {
+  padding: 10px;
+  background: rgb(254, 141, 141);
+  background: linear-gradient(
+    90deg,
+    rgb(245, 82, 82) 0%,
+    rgb(251, 89, 71) 100%
+  );
+  letter-spacing: 2px;
+}

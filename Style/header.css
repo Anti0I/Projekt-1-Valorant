@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  color: hsl(0, 5%, 89%);
+  min-height: 200vh;
+}
+
+header > div#header-text > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #171717;
+
+  font-size: 17px;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+header > div > ul > li > a:not(.title, .valorantlogo, .Agents, .GrajTeraza) {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.2s;
+  padding: 7px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #171717;
+}
+
+header > div > ul > li > a:not(.GrajTeraza, .valorantlogo):hover {
+  transition: 0.1s;
+  background: rgb(171, 159, 159);
+  border: 1px solid #ffffff;
+}
+
+li:active {
+  transform: scale(0.9);
+  transition: 0.1s;
+}
+
+#header-text > ul > li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin: 20px;
+}
+#search {
+  max-width: 20px;
+  transition: 0.1s;
+  border-radius: 8px;
+}
+img#langauge {
+  height: 30px;
+  width: auto;
+}
+main {
+  display: flex;
+  max-width: auto;
+}
+
+a.GrajTeraza {
+  border-radius: 10px;
+  transition: 0.2s;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  background: rgb(255, 49, 49);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 49, 49, 1) 1%,
+    rgba(255, 124, 109, 1) 99%
+  );
+  color: rgb(0, 0, 0);
+  height: 60px;
+  font-weight: 600;
+  outline-offset: 3px;
+  padding: 7px;
+  letter-spacing: 2px;
+}
+
+a.GrajTeraza:hover {
+  background: rgb(242, 103, 103);
+  background: linear-gradient(
+    90deg,
+    rgba(242, 103, 103, 1) 0%,
+    rgba(245, 27, 3, 1) 100%
+  );
+}
+
+span:hover {
+  opacity: 0.5;
+}
+ul {
+  height: 60px;
+}
